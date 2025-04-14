@@ -1,256 +1,95 @@
-<!-- style5.css -->
+/* File: style.css */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background: url('images/bg-home.jpg') no-repeat center center fixed;
+  background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #fff; /* chữ trắng cho dễ nhìn nếu nền tối */
-}
-header nav {
-  background: #fff;
-  padding: 20px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-  color: #0077cc;
-}
-
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: linear-gradient(to right, #e0eafc, #cfdef3);
-}
-
-.hero h2 {
-  font-size: 42px;
-  margin-bottom: 10px;
-  font-family: 'Playfair Display', serif;
-}
-
-.hero p {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.btn {
-  display: inline-block;
-  background: #0077cc;
   color: #fff;
-  padding: 10px 25px;
-  border-radius: 30px;
-  text-decoration: none;
-  transition: background 0.3s;
 }
 
-.btn:hover {
-  background: #005fa3;
-}
-
-section.about, section.contact {
-  padding: 60px 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-.about h2, .contact h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 32px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.about ul {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-}
-
-.about ul li {
-  background: #f0f0f0;
-  padding: 10px 20px;
-  border-radius: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-form input, form textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  font-family: inherit;
-}
-
-form button {
-  background: #0077cc;
-  color: #fff;
-  padding: 12px;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-form button:hover {
-  background: #005fa3;
-}
-<!-- style.css -->
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
-}
-
-header nav {
-  background: #fff;
-  padding: 20px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-nav ul li a:hover,
-nav ul li a.active {
-  color: #0077cc;
-}
-
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: linear-gradient(to right, #e0eafc, #cfdef3);
-}
-
-.hero h2 {
-  font-size: 42px;
-  margin-bottom: 10px;
-  font-family: 'Playfair Display', serif;
-}
-
-.hero p {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.btn {
-  display: inline-block;
-  background: #0077cc;
-  color: #fff;
-  padding: 10px 25px;
-  border-radius: 30px;
-  text-decoration: none;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background: #005fa3;
-}
-
-section.about, section.contact {
-  padding: 60px 20px;
-  max-width: 800px;
-  margin: auto;
-}
-
-.about h2, .contact h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 32px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.about ul {
-  list-style: none;
-  padding-left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-}
-
-.about ul li {
-  background: #f0f0f0;
-  padding: 10px 20px;
-  border-radius: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-form input, form textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  font-family: inherit;
-}
-
-form button {
-  background: #0077cc;
-  color: #fff;
-  padding: 12px;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-form button:hover {
-  background: #005fa3;
-}
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* lớp nền mờ */
+  background-color: rgba(0, 0, 0, 0.6);
   min-height: 100vh;
-  padding: 50px;
+  padding: 40px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.profile {
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  text-align: left;
+  color: #eee;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 0.9em;
+}
+form {
+  text-align: left;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
 }
