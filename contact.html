@@ -1,31 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+<nav>
+  <a href="index.html">Trang chủ</a> |
+  <a href="about.html">Giới thiệu</a> |
+  <a href="contact.html">Liên hệ</a>
+</nav>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact - Phan Quang Minh</title>
-  <link rel="stylesheet" href="style5.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <title>Liên hệ với Phan Quang Minh</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Phan Quang Minh</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
+  <div class="overlay">
+    <header>
+      <h1>Liên hệ với Minh</h1>
+      <p>Gửi lời nhắn cho mình qua biểu mẫu dưới đây</p>
+    </header>
+
+    <section class="profile">
+      <form action="#" method="post">
+        <label for="name">Họ và tên:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Nội dung:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <button type="submit">Gửi liên hệ</button>
+      </form>
+    </section>
+
+    <footer>
+      <p><a href="index.html" style="color: #ccc;">← Quay lại trang chủ</a></p>
+      <p>&copy; 2025 Phan Quang Minh</p>
+    </footer>
+  </div>
 </body>
 </html>
