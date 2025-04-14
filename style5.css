@@ -1,11 +1,12 @@
 <!-- style5.css -->
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: url('images/bg-home.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff; /* chữ trắng cho dễ nhìn nếu nền tối */
 }
-
 header nav {
   background: #fff;
   padding: 20px 40px;
@@ -247,4 +248,9 @@ form button {
 
 form button:hover {
   background: #005fa3;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* lớp nền mờ */
+  min-height: 100vh;
+  padding: 50px;
 }
